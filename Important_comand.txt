@@ -1,0 +1,54 @@
+Command Line Interface
+1:-Runserver 
+    python manage.py runserver
+
+2:- Runserver for change id address and port number
+    python manage.py runserver 127.0.0.1:9090
+
+3:- Back file bolder
+    cd ..
+
+4:-next folder name
+    cd folder_name (e.g.,cd myapp)
+
+5:- Create New App or page
+    python manage.py startapp app_name
+        e.g.,python manage.py startapp website
+
+6:- Create model for app
+	Migrations for app 
+	e.g., python manage.py makemigrations
+
+
+
+7:- model app migrate
+	python manage.py migrate
+  
+
+	1:- Open shell for inserting data
+		python ./manage.py shell
+	
+	2:- Import app module for your app
+		from website.models import Student
+	4:- Insert Data your app
+		e.g., student=Student(name="Ritesh",college="ABC",age=22,is_active=True)
+		Student = ya class naam hai jo create kiya hai modles.py ma website app ka models hai
+	
+	5:- Print Data
+		e.g., student.name
+		e.g., student.college
+	
+	6:- Save data
+		e.g., student.save()
+	
+	7:- SQLite Viewers app
+		Link : https://sqliteviewer.app/
+
+	8:- Django ma aap DB ka query perform kar sekta hai is website ke help se
+		Link : https://docs.djangoproject.com/en/5.0/topics/db/queries/
+
+
+Admin USer Id:
+	User Id :- rit_8603
+	Email Id :- rkr8603rkr@gmail.com
+	Password :- Ritesh@@#
